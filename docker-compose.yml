@@ -20,7 +20,7 @@ services:
     image: node:18
     container_name: node_container
     restart: always
-    commmand: tail -f /dev/null
+    command: tail -f /dev/null
     ports:
       - "3000.3000"
     
